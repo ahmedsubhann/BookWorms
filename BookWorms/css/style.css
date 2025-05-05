@@ -1,0 +1,249 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	font-family: sans-serif;
+}
+header{
+	background-image: url(../photos/alfons-morales-YLSwjSy7stw-unsplash.jpg);
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-size: 45px;
+}
+ul{
+	float: left;
+	list-style-type: none;
+}
+ul li{
+	text-decoration: none;
+	color: black;
+	padding: 5px 20px;
+	margin: 10px;
+	border: 1px solid black;
+	transition: 0.6s ease;
+}
+ul li:hover{
+	background-color: orange;
+	color: black;
+	border-radius:15px;
+	transition:1s;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+nav{
+  display: flex;
+  padding: 2% 6%;
+  align-items: center;
+  border: 2px solid white;
+  border-collapse: collapse;
+
+}
+.nav-links{
+   flex:0%;
+   text-align:right; 
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline;
+  padding: 8px 8px;
+}
+.nav-links ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+.cata{
+	text-align: center;
+	margin-left: 36%;
+}
+.footer{
+  background-color:grey;
+  width: 100%;
+  text-align: center;
+  margin-right: 36% ;
+  padding: 5px 0;
+  margin-top: 108%;
+}
+
+.footer h4{
+	text-align: center;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+
+
+
+/* Existing styles ... */
+
+/* Additional styles for the Contact page */
+.contact-form {
+	max-width: 600px;
+	margin: 2rem auto;
+	padding: 1.5rem;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form label {
+	display: block;
+	margin-bottom: 0.5rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+	width: 100%;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  }
+  
+  .contact-form button {
+	background-color: #333;
+	color: white;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+	background-color: #555;
+  }
+  
+  .contact-info {
+	text-align: center;
+	max-width: 400px;
+	margin: 2rem auto;
+	padding: 1.5rem;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 2rem 0;
+	margin-top: 2rem;
+  }
+  
+  .footer h4 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+  }
+  
+  .footer p {
+	font-size: 1rem;
+  }
+  
+
+
+  /* Additional styles for the About page */
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.about {
+    flex: 1;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about:hover {
+    transform: scale(1.02);
+}
+
+.about h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    color: #555;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-info:hover {
+    transform: scale(1.02);
+}
+
+.contact-info h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    color: #555;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
